@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer utilities{
+    .text-shadow{
+        text-shadow:2px 2px 2px #1128015b;
+    }
+    .img-shadow{
+        filter:drop-shadow(60px 40px 50px #000000eb);
+    }
+
+    .input-style{
+        @apply px-4 py-2 border-[1px] border-gray-400 ;
+    }
+}
